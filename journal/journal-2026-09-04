@@ -1,1 +1,20 @@
-##WIP
+# 📖 My Learning Journal
+
+## 🎯 Current Goal
+- **Focus:** Relational Databases, Git & Spark SQL
+- **Timeline:** Week 1
+
+---
+
+## 📅 Weekly Log
+
+
+#### 💡 Key Takeaways
+- [What did you learn today?]
+- [Concept or rule in plain English]
+
+#### 💻 Code Snippet
+```sql
+SELECT users.name, orders.amount
+FROM users
+INNER JOIN orders ON users.id = orders.user_id;
