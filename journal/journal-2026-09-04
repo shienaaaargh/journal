@@ -1,20 +1,37 @@
-# 📖 My Learning Journal
+# Journal - 2026-09-04 - Week 6 FTW
 
-## 🎯 Current Goal
-- **Focus:** Relational Databases, Git & Spark SQL
-- **Timeline:** Week 1
+## Today in one sentence
+-Building a dashboard in Databricks
 
----
+## What I learned
+-
 
-## 📅 Weekly Log
+## Terms I am still learning
+- **OLAP vs OLTP**
+- **Star Schema**
+- **Normalization**
+- 
+## What confused me
+- GIT!
+- Everything about GIT
+
+## One small next step
+- [ ] Create one more practice commit after class
+- [ ] Read this for Normalization https://www.geeksforgeeks.org/dbms/introduction-of-database-normalization/ and https://www.ibm.com/think/topics/database-normalization
+- [ ] Finish Introduction to Relational Database in Datacamp
+
+## Git checkpoint
+- [x] I created or updated a file
+- [x] I wrote a commit
+- [ ] I pushed my changes
+
+## Evidence from today (optional)
 
 
-#### 💡 Key Takeaways
-- [What did you learn today?]
-- [Concept or rule in plain English]
+## Reflection (optional)
+- What felt easy today? 
+- What felt difficult today? 
+- What do I want to understand better next time? 
 
-#### 💻 Code Snippet
-```sql
-SELECT users.name, orders.amount
-FROM users
-INNER JOIN orders ON users.id = orders.user_id;
+## Mood or meme (optional)
+- Today felt like https://tenor.com/view/bts-bangtan-boys-bangtan-sonyeondan-bts-suga-suga-gif-16718112
