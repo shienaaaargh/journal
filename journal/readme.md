@@ -1,4 +1,4 @@
-"""# 📓 FTW Data Engineering Learning Journal
+📓 FTW Data Engineering Learning Journal
 
 Welcome to my learning journal repository! I am using this space to track my daily and weekly progress, reflections, and key takeaways as I go through the **FTW (For The Women) Foundation Data Engineering Track**.
 
@@ -9,8 +9,8 @@ By writing down what I learn, what confuses me, and what I accomplish each day, 
 
 ## 🛠️ Tech Stack & Concepts Covered
 Throughout this journey, I'm getting hands-on with:
-*   **Languages:** SQL, Python (PySpark)
-*   **Compute & Frameworks:** Apache Spark, Databricks
+*   **Languages:** SQL, Python
+*   **Compute & Frameworks:** Databricks
 *   **Data Modeling:** Star Schema, Snowflake Schema, Facts & Dimensions
 *   **Data Quality (DQ):** Automated checks (Nulls, Unique, Referential Integrity), Checkpointed Pipelines, DQ Dashboards
 *   **Tools:** Git, VS Code, dbt, Metabase
