@@ -1,24 +1,29 @@
-# Journal - 2026-09-04 - Week 6 FTW
+"""# Journal - 2026-09-05 - Week 6 FTW
 
 ## Today in one sentence
--Building a dashboard in Databricks
+- Spark is an engine; SQL is a language, and a green pipeline doesn't mean good data.
 
 ## What I learned
--
+- A lot. I realized Spark is for scaling across machines, not just handling more rows.
+- Pipeline success ≠ Data Quality. Just because the code ran doesn't mean the numbers are right.
+- The 6 DQ checks to catch bad data: Nulls, Unique, Range, Accepted Values, Referential Integrity, and Volume.
+- We should be writing DQ results into a table (`dq_check_results`) instead of just running one-off queries.
 
 ## Terms I am still learning
-- **OLAP vs OLTP**
-- **Star Schema**
-- **Normalization**
-- 
+- **Shuffle**: Moving data between partitions in Spark (sounds like it gets expensive fast).
+- **Checkpointed Pipeline**: Adding explicit "CHECK" stages so bad data actually stops instead of flowing to the dashboard.
+
 ## What confused me
-- GIT!
-- Everything about GIT
+- Exactly when it makes sense to switch from SQL to PySpark.
+- How to fully automate that `dq_check_results` table for all our datasets.
 
 ## One small next step
 - [ ] Create one more practice commit after class
 - [ ] Read this for Normalization https://www.geeksforgeeks.org/dbms/introduction-of-database-normalization/ and https://www.ibm.com/think/topics/database-normalization
 - [ ] Finish Introduction to Relational Database in Datacamp
+- [ ] snowflake schema vs star schema - https://www.datacamp.com/blog/star-schema-vs-snowflake-schema
+- [ ] Set up VS Code with the Databricks extension to stop coding in the browser.
+- [ ] Start on the OULAD homework.
 
 ## Git checkpoint
 - [x] I created or updated a file
@@ -26,12 +31,18 @@
 - [ ] I pushed my changes
 
 ## Evidence from today (optional)
-
+- Wrote the same exact transformation in SQL and PySpark just to see how the syntax changes but the output stays the same.
 
 ## Reflection (optional)
-- What felt easy today? 
-- What felt difficult today? 
-- What do I want to understand better next time? 
+- **What felt easy today?** The basic DQ checks like finding nulls and duplicates just makes sense.
+- **What felt difficult today?** Thinking in distributed systems (Drivers, Partitions, Workers) instead of just my laptop's CPU.
+- **What do I want to understand better next time?** How to build a DQ dashboard that actually tells me the health of the data in 10 seconds.
 
 ## Mood or meme (optional)
 - Today felt like https://tenor.com/view/bts-bangtan-boys-bangtan-sonyeondan-bts-suga-suga-gif-16718112
+"""
+
+with open("journal_entry.md", "w", encoding="utf-8") as f:
+    f.write(md_content)
+    
+print("Created journal_entry.md")
