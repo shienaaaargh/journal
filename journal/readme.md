@@ -1,27 +1,28 @@
-# 📖 My Learning Journal
+"""# 📓 FTW Data Engineering Learning Journal
 
-Daily notes, code snippets, and progress tracking for my tech studies.
+Welcome to my learning journal repository! I am using this space to track my daily and weekly progress, reflections, and key takeaways as I go through the **FTW (For The Women) Foundation Data Engineering Track**.
 
----
+## 🎯 Purpose of this Repository
+Data Engineering is a massive field, and this repo serves as my "second brain." It documents my shift from understanding basic data concepts to building scalable, distributed, and observable data pipelines. 
 
-## 🎯 Current Goal
-- **Focus:** Relational Databases, Git & Spark SQL
-- **Timeline:** Week 1
+By writing down what I learn, what confuses me, and what I accomplish each day, I'm building a personal knowledge base and a record of my growth as a Data Engineer.
 
----
+## 🛠️ Tech Stack & Concepts Covered
+Throughout this journey, I'm getting hands-on with:
+*   **Languages:** SQL, Python (PySpark)
+*   **Compute & Frameworks:** Apache Spark, Databricks
+*   **Data Modeling:** Star Schema, Snowflake Schema, Facts & Dimensions
+*   **Data Quality (DQ):** Automated checks (Nulls, Unique, Referential Integrity), Checkpointed Pipelines, DQ Dashboards
+*   **Tools:** Git, VS Code, dbt, Metabase
 
-## 📅 Daily Log
+## 📁 Repository Structure
+My journal entries are organized chronologically. Each entry follows a specific template to keep my reflections structured and actionable.
 
-### Day 1: [YYYY-MM-DD]
-- **Topic:** [e.g., SQL Joins & Foreign Keys]
-- **Time Spent:** [e.g., 1.5 hrs]
-
-#### 💡 Key Takeaways
-- [What did you learn today?]
-- [Concept or rule in plain English]
-
-#### 💻 Code Snippet
-```sql
-SELECT users.name, orders.amount
-FROM users
-INNER JOIN orders ON users.id = orders.user_id;
+```text
+📦 ftw-de-journal
+ ┣ 📜 README.md
+ ┣ 📂 Week-01
+ ┣ 📂 Week-02
+ ┣ ...
+ ┗ 📂 Week-06
+   ┗ 📜 Journal-2026-09-05.md
