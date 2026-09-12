@@ -1,0 +1,1 @@
+minimum effort maximum results
